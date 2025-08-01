@@ -16,7 +16,20 @@ SECRET_KEY = 'django-insecure-l3@z9_0o=su079ik!8g1%nwgxe2$!b)uxs^3f$g#p6x0f)=may
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+
+ALLOWED_HOSTS = [
+    'healthassit.onrender.com',
+    'localhost',
+    '127.0.0.1',
+    '44.226.145.213',
+    '54.187.200.255',
+    '34.213.214.55',
+    '35.164.95.156',
+    '44.230.95.183',
+    '44.229.200.200',
+]
+
+ALLOWED_HOSTS = ['*']
 
 # Application definition
 INSTALLED_APPS = [
