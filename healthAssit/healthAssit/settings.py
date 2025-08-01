@@ -19,6 +19,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = [
     'healthassit.onrender.com',
+    'https://healthassit.onrender.com',
     'localhost',
     '127.0.0.1',
     '44.226.145.213',
