@@ -1,5 +1,5 @@
 from django.urls import path
-from .views import UserRegister,UserLogin,HealthRecordView,SkinDiseaseView,WelcomeView
+from .views import UserRegister,UserLogin,HealthRecordView,WelcomeView
 
 from django.conf import settings
 from django.conf.urls.static import static
@@ -9,7 +9,7 @@ urlpatterns = [
     path('', WelcomeView.as_view()),
     path('login/', UserLogin.as_view(), name='user-login'),
     path('bot/', HealthRecordView.as_view(), name='health-record'),
-    path('skin/', SkinDiseaseView.as_view(), name='skin-disease'),
+    
 ]
 
 
