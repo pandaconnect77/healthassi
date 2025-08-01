@@ -8,7 +8,7 @@ from rest_framework.response import Response
 from rest_framework.parsers import MultiPartParser, FormParser
 
 from .models import UserProfile, HealthRecord, SkinDisease
-from .serializers import userProfileSerializer, HealthRecordSerializer, SkinDiseaseSerializer
+from .serializers import userProfileSerializer, HealthRecordSerializer
 
 
 import os
